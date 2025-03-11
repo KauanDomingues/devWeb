@@ -3,72 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Primeiro Projeto</title>
 </head>
 <body>
-    <h1>Título 1</h1>
-    <h2>Título 2</h2>
-    <h3>Título 3</h3>
-    <h4>Título 4</h1>
-    <h5>Título 5</h2>
-    <h6>Título 6</h3>
+    <header>
+        <h1 class="titulo">Mr. Whiskers</h1>
+    </header>
 
-    <h3>Lista Ordenada</h3>
-    <ol>
-        <li>Batata Frita</li>
-        <li>Hamburguer</li>
-        <li>Frango Assado</li>
-        <li>Pizza</li>
-        <li>Cachorro Quente</li>
-    </ol>
-
-    <h3>Lista não-ordenada</h3>
-    <ul>
-        <li>Biblioteca</li>
-        <li>Padaria</li>
-        <li>Igreja</li>
-        <li>Templo Budista</li>
-        <li>Mercado de esquinha</li>
-    </ul>
-
-    <a href="/aula01/comida.html">GitHub</a>
-
-    <img src="images/gatoPreto.png" alt="">
+    <nav>
+        <a href="/aula01/gato.html" class="navLink"><h2>Gatos</h2></a>
+    </nav>
 
 
-    <form>
-        <label for="nome">Nome:</label>
-        <input type="text">
-        <label for="celular">Celular:</label>
-        <input type="text">
-        <input type="submit">
-    </form>
 
-    <table>
-        <tr>
-            <th>Nome</th>
-            <th>Celular</th>
-            <th>Endereço</th>
-            <th>ID</th>
-        </tr>
-        <tr>
-            <td>Julia</td>
-            <td>12982235621</td>
-            <td>94493285</td>
-            <td>923</td>
-        </tr>
-        <tr>
-            <td>Jepherson</td>
-            <td>12981736295</td>
-            <td>38492640</td>
-            <td>234</td>
-        </tr><tr>
-            <td>Rhuan</td>
-            <td>12982573102</td>
-            <td>5943023</td>
-            <td>654</td>
-        </tr>
-    </table>
+    
+    <video class="video" src="media/gatoPreto.mp4" autoplay loop></video>
+
+ 
+    <aside class="container1">
+        <form class="form1">
+            <label for="nome">Nome do Gato:</label>
+            <input type="text">
+            <label for="idade">Idade:</label>
+            <input type="text">
+            <input type="submit">
+        </form>
+
+        <table >
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cor</th>
+                <th>ID</th>
+            </tr>
+            <tr>
+                <td>Bigodes</td>
+                <td>3 anos</td>
+                <td>Laranja</td>
+                <td>923</td>
+            </tr>
+            <tr>
+                <td>Irineu</td>
+                <td>6 anos</td>
+                <td>Preto</td>
+                <td>234</td>
+            </tr><tr>
+                <td>Prego</td>
+                <td>2 anos</td>
+                <td>Cinza</td>
+                <td>654</td>
+            </tr>
+        </table>
+
+    </aside>
+
+    <footer>
+        <h5>Mr. Whiskers inc</h5>
+        <a href="gato.html" class="navLink"><h5>Gatos</h5></a>
+    </footer>
 </body>
 </html>
 
