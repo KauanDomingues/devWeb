@@ -1,10 +1,12 @@
 :root {
-    --bg-color: rgb(173, 173, 204);
+    --bg-color: rgb(153, 153, 245);
     --header-color: rgb(106, 106, 134);
     --nav-color: rgb(144, 144, 173);
     --font-color: rgb(29, 0, 0);
+    --input-color: rgb(133, 133, 225);
 }
 
+/*
 body {
     padding: none;
     border: none;
@@ -68,4 +70,51 @@ footer {
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 5px;
+}
+
+*/
+/* Login Screen */
+
+.login_screen {
+    width: 400px;
+    height: 100vh;
+    display: inline;
+}
+
+input {
+    border-style: none;
+}
+
+.login_screen input, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.login_screen input, button :hover :active{
+    opacity: 0.6;
+}
+
+    /* Botões */
+.recuperar {
+    background-color: transparent;
+    border: none;
+}
+.recuperar :hover {
+    background-color: var(--input-color);
+    color: rgb(70, 0, 0);
+
+}
+
+.login_button {
+    border-style: solid;
+    border: 2px;
+    border-color: white;
+}
+
+.cadastrar_button {
+    background-color: transparent;
+    border-style: solid;
+    border: 2px;
+    border-color: var(--font-color);
 }
